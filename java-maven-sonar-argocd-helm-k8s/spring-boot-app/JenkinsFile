@@ -16,8 +16,7 @@ stages {
         '''
       }
     }
-  stages {
-    stage('Checkout') {
+     stage('Checkout') {
       steps {
         sh 'echo passed'
         //git branch: 'main', url: 'https://github.com/Swapnil31Ingale/Jenkins-Zero-To-Hero.git'
