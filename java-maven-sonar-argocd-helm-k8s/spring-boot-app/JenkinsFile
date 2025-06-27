@@ -8,8 +8,8 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        // SCM checkout is already handled if this Jenkinsfile is sourced from the repo
-        sh 'echo Repository already checked out by Jenkins.'
+        // SCM checkout is already handled if this Jenkinsfile is sourced from the repo.
+        sh 'echo Repository already checked out by Jenkins. So this step is optional'
       }
     }
 
